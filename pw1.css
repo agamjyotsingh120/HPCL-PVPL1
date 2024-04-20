@@ -1,0 +1,28 @@
+body{
+    text-align:center;
+    background:linear-gradient(to left,#7585db,#005AA7);
+        height:100%;
+    width:100%;
+    margin:0;
+}
+
+.header{
+    font-family:Playfair Display;
+    font-size:35px;
+ text-align:center;
+}
+.divus{
+background-color:aliceblue;
+width:500px;
+margin-left:450px;
+border-radius: 20px;
+height:250px;
+font-family:Playfair Display;
+}
+#login_button{
+    width:300px;
+    border-radius:15px;
+}
+#error{
+    color:red;
+}

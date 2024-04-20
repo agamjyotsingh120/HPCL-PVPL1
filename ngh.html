@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        HPCL-MDPL-PVPL-VRS
+    </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+ 
+<link rel="stylesheet" href="style.css"></link>
+<script src="app.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-database.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body >
+    <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+<h1 class=" header">HPCL-MDPL-PVPL-VRS
+</h1>
+
+<h3 class="header">TLP-Monitoring-Website
+</h3>
+<hr>
+<ol> <h3 class="side-text" id="st1" >Weather connections lead points are as per the TLP type<br> if not, mention the mismatch in remarks.</h3> </ol>
+<div class="drp-cnt">
+    <select class="dropdown"><option href="Bad" class="dropdown-content">Yes</option >
+        <option href="EFGH" class="dropdown-content">No</option >
+            
+    </select>
+   
+</div>
+
+<div>
+    <br>
+    <br>
+    <hr>
+<ol> <h3 class="side-text" id="st1" >Weather TLP number is written on the TLP box</h3> </ol>
+<div class="drp-cnt">
+    <select class="dropdown"><option href="Bad" class="dropdown-content">Yes</option >
+        <option href="EFGH" class="dropdown-content">No</option >
+            
+    </select>
+   </div>
+</div>
+
+<br>
+<hr>
+<ol> <h3 class="side-text" id="st1" >Weather TLP type is mentioned on the TLP box</h3> </ol>
+<div class="drp-cnt">
+<select class="dropdown"><option href="Bad" class="dropdown-content">Yes</option >
+    <option href="EFGH" class="dropdown-content">No</option >
+        
+</select>
+</div>
+</div>
+
+<br>
+<hr>       
+<ol> <h3 class="side-text" id="st1" >Weather Chainage is mentioned on the TLP box</h3> </ol>
+<div class="drp-cnt">
+<select class="dropdown"><option href="Bad" class="dropdown-content">Yes</option >
+    <option href="EFGH" class="dropdown-content">No</option >
+        
+</select>
+</div>
+</div>
+
+<br>
+<hr><ol> <h3 class="side-text" id="st1" >Condition of TLP box</h3> </ol>
+<div class="drp-cnt">
+<select class="dropdown"><option href="rusted" class="dropdown-content">Rusted</option >
+    <option href="Dirty" class="dropdown-content">Dirty</option >
+        
+</select>
+</div>
+</div>
+
+<br>
+<hr>
+<ol> <h3 class="side-text" id="st1" >Sealing of TLP box checked?</h3> </ol>
+<div class="drp-cnt">
+<select class="dropdown"><option href="Bad" class="dropdown-content">Yes</option >
+    <option href="EFGH" class="dropdown-content">No</option >
+        
+</select>
+</div>
+</div>
+<br>
+<hr>
+<button id="snap" onclick="gff()">Next</button>
+</body>
